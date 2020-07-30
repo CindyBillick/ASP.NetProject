@@ -24,7 +24,7 @@ namespace MarkV111V1DemoApplication.Controllers
 
             return View(products);
         }
-
+        //Set Index
         public IActionResult ViewProduct(int id)
         {
             var product = repo.GetProduct(id);
